@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout>
+    <adminhtml_fake_index>
+        <reference name="content">
+            <block name="user_grid" type="fake_user/adminhtml_user"/>
+        </reference>
+    </adminhtml_fake_index>
+</layout>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<config>
+    <admin_form>
+        <grids>
+            <fake_user_grid>
+                <name>user</name>
+                <type>fake_user/user</type>
+                <column>
+                    <first_name translate="header">
+                        <header>First Name</header>
+                        <index>first_name</index>
+                    </first_name>
+                    <status>
+                        <header>Status</header>
+                        <type>options</type>
+                        <align>left</align>
+                        <index>status</index>
+                        <options>
+                            <enabled>
+                                <label>Enabled</label>
+                                <value>1</value>
+                            </enabled>
+                            <disabled>
+                                <label>Disabled</label>
+                                <value>0</value>
+                            </disabled>
+                        </options>
+                    </status>
+                </column>
+            </fake_user_grid>
+        </grids>
+    </admin_form>
+</config>
